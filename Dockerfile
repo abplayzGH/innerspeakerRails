@@ -12,7 +12,7 @@ LABEL org.opencontainers.image.licenses=MIT
 WORKDIR /rails
 
 # Set production environment
-ENV RAILS_ENV="test" \
+ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
     BUNDLE_PATH="/usr/local/bundle" \
     BUNDLE_WITHOUT="development"
